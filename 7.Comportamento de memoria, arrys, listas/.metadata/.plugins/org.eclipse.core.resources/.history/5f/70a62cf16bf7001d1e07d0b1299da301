@@ -1,0 +1,30 @@
+package apllication;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("type number line: ");
+		int x = sc.nextInt();
+		System.out.println("Type number column");
+		int y = sc.nextInt();
+		
+		int[][] mat = new int[x][y];
+		
+		for(int l = 0; l < mat.length; l++) {
+			System.out.println("passou");
+			for(int c = 0; c< mat[l].length; c++) {
+				System.out.println("passou");
+				mat[l][c] = sc.nextInt();
+			}
+		}
+		
+		
+		sc.close();
+	}
+
+}

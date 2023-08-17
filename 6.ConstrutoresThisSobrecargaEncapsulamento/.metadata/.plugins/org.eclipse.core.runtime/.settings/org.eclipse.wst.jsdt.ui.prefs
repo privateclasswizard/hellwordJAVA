@@ -1,0 +1,73 @@
+:Microsoft.Build.OpportunisticIntern.IInternable.ReferenceEquals(System.String)">
+            <summary>
+            Reference compare target to string. If target is non-string this should return false.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Build.OpportunisticIntern.AssignViaEnvironment(System.String,System.Int32)">
+            <summary>
+            Assign an int from an environment variable. If its not present, use the default.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Build.OpportunisticIntern.EnableStatisticsGathering">
+            <summary>
+            Turn on statistics gathering.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Build.OpportunisticIntern.InternableToString(Microsoft.Build.OpportunisticIntern.IInternable)">
+            <summary>
+            Intern the given internable.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Build.OpportunisticIntern.StringBuilderToString(System.Text.StringBuilder)">
+            <summary>
+            Potentially Intern the given string builder.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Build.OpportunisticIntern.CharArrayToString(System.Char[],System.Int32)">
+            <summary>
+            Potentially Intern the given char array.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Build.OpportunisticIntern.CharArrayToString(System.Char[],System.Int32,System.Int32)">
+            <summary>
+            Potentially Intern the given char array.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Build.OpportunisticIntern.InternStringIfPossible(System.String)">
+            <summary>
+            Potentially Intern the given string.
+            </summary>
+            <param name="candidate">The string to intern.</param>
+            <returns>The interned string, or the same string if it could not be interned.</returns>
+        </member>
+        <member name="M:Microsoft.Build.OpportunisticIntern.ReportStatistics">
+            <summary>
+            Report statistics about interning. Don't call unless GatherStatistics has been called beforehand.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Build.OpportunisticIntern.StringBuilderInternTarget">
+            <summary>
+            A wrapper over StringBuilder.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Build.OpportunisticIntern.StringBuilderInternTarget._target">
+            <summary>
+            The held StringBuilder
+            </summary>
+        </member>
+        <member name="M:Microsoft.Build.OpportunisticIntern.StringBuilderInternTarget.#ctor(System.Text.StringBuilder)">
+            <summary>
+            Pointless comment about constructor.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Build.OpportunisticIntern.StringBuilderInternTarget.Length">
+            <summary>
+            The length of the target.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Build.OpportunisticIntern.StringBuilderInternTarget.Item(System.Int32)">
+            <summary>
+            Indexer into the target. Presumed to be fast.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Build.OpportunisticIntern.StringBuilderI

@@ -1,0 +1,19 @@
+loads.  For example a set of overloads such as:
+                foo(object a, object b, object c)
+                foo(int a, int b)
+                
+            would have 2 target sets - one for 3 parameters and one for 2 parameters.  For parameter arrays
+            we fallback and create the appropriately sized CandidateSet on demand.
+            
+            Each CandidateSet consists of a set of MethodCandidate's.  Each MethodCandidate knows the flattened
+            parameters that could be received.  For example for a function such as:
+                foo(params int[] args)
+                
+            When this method is in a CandidateSet of size 3 the MethodCandidate takes 3 parameters - all of them
+            ints; if it's in a CandidateSet of size 4 it takes 4 parameters.  Effectively a MethodCandidate is 
+            a simplified view that allows all arguments to be treated as required positional arguments.
+            
+            Each MethodCandidate in turn refers to a MethodTarget.  The MethodTarget is composed of a set
+            of ArgBuilder's and a ReturnBuilder which know how to consume the positional arguments and pass
+            them to the appropriate argument of the destination method.  This includes routing keyword
+            

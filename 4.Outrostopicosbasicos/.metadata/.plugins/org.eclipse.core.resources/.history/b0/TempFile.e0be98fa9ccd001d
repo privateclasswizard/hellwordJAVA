@@ -1,0 +1,31 @@
+package aula58Package;
+
+public class aula58main {
+
+	public static void main(String[] args) {
+		String original = "douglas lessa taquete";
+		
+		String s1 = original.toLowerCase();
+		String s2 = original.toUpperCase();
+		String s3 = original.trim();
+		String s4 = original.substring(2);
+		String s5 = original.substring(2, 9);
+		String s6 = original.replace('a', 'x');
+		String s7 = original.replace("douglas", "lessa");
+		int i = original.indexOf("ss");
+		int j = original.lastIndexOf("Do");
+				
+				
+		System.out.println("Original: -" + original + "-");
+		System.out.println("toLowerCase: -" + s01 + "-");
+		System.out.println("toUpperCase: -" + s02 + "-");
+		System.out.println("trim: -" + s03 + "-");
+		System.out.println("substring(2): -" + s04 + "-");
+		System.out.println("substring(2, 9): -" + s05 + "-");
+		System.out.println("replace('a', 'x'): -" + s06 + "-");
+		System.out.println("replace('abc', 'xy'): -" + s07 + "-");
+		System.out.println("Index of 'bc': " + i);
+		System.out.println("Last index of 'bc': " + j);
+	}
+
+}

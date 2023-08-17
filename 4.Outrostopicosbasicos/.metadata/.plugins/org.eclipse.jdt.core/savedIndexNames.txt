@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+D:\documents\PROGRAMAÇÃO!\CursodeJava\NelioAlves\JAVA\4.Outrostopicosbasicos\.metadata\.plugins\org.eclipse.jdt.core
+2923848926.index
+2449712988.index
+1865797976.index
+1056536911.index
+454009534.index

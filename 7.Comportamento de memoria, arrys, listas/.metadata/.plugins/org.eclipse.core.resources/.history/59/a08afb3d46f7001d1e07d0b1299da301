@@ -1,0 +1,27 @@
+package apllications;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Digite um numero :");
+		int n =sc.nextInt();
+		int [][] mat  = new int[n][n];
+		
+		for(int l = 0; l <n ; l ++) {
+			for(int c =0; c < n ; c ++) {
+				mat [l][c] = sc.nextInt();
+			}
+		}
+		
+		System.out.println("Main Diagonal: ");
+		for (int i = 0; i <n ; i++) {
+			System.out.println(mat [i][i] + " ");
+		}
+		sc.close();
+	}
+
+}

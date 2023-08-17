@@ -1,0 +1,26 @@
+package aula34;
+
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		int hora;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Quantas Horas? ");
+		hora = sc.nextInt();
+		
+		if(hora< 12) {
+			System.out.println("Bom dia");
+		}
+		else if (hora >12 && hora<6){
+			System.out.println("boa Tarde");
+		}
+		else {
+			System.out.println("boa Tarde");
+		}
+
+	}
+
+}

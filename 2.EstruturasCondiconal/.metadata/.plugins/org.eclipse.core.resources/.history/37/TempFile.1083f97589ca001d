@@ -1,0 +1,40 @@
+package aula34exemplo2;
+
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Scanner;
+
+public class mainaual34 {
+
+	public static void main(String[] args) {
+		Calendar c1 = Calendar.getInstance();
+		Date datahoraatual = new Date();
+		
+		
+		int horario = c1.get(Calendar.HOUR_OF_DAY);
+		String nome;
+		Scanner sc = new Scanner(System.in);
+		String r1;
+		
+		String data = new SimpleDateFormat("dd/MM/yyyy").format(datahoraatual);
+		String hora = new SimpleDateFormat("HH:mm:ss").format(datahoraatual);
+		
+		System.out.println("Qual seu nome: ");
+		nome = sc.nextLine();
+		
+		
+if(horario > 6 && horario < 12) {
+	System.out.printf("Boa Dia, %s ! %N como vc está?", nome);
+}else if(horario > 12 && horario < 18) {
+	System.out.printf("Boa Dia, %s ! %N como vc está?",nome);
+}else {
+	System.out.printf("Boa noite, %s. %nque saber as Horas? ",nome);
+	r1 = sc.next();
+	
+	if(r1 == "sim" && r1== "Sim") {
+		System.out.println("São " + hora );
+	}
+}
+
+		}
+	}

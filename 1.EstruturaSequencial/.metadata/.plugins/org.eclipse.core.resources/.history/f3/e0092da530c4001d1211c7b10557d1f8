@@ -1,0 +1,19 @@
+
+public class primeiroprogramaMain {
+
+	public static void main(String[] args) {
+		//System.out.print("Olá mundo");
+		//System.out.println("vc é feio");
+		
+		int y = 32;
+		float t = 64.07;
+		double x = 13.8998;
+		
+		System.out.println(x);
+		System.out.printf("%.2f",t );
+		System.out.println(y);
+		System.out.print("Use os produtos evone");
+		
+	}
+
+}

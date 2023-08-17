@@ -1,0 +1,62 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Product;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		Product product = new Product();
+		System.out.println("Enter Product data: ");
+		System.out.println("Name? ");
+		product.name = sc.nextLine();
+		System.out.println("Price? ");
+		product.price = sc.nextDouble();
+		System.out.println("Quantity in Stock? ");
+		product.quantity = sc.nextInt();
+		
+	
+		System.out.println();
+		System.out.println("Products data: "+product);
+		
+		System.out.println();
+		
+		System.out.println("Do you want to update the quantity in stock? ");
+		String update = sc.next();		
+		
+		do {
+			System.out.println("what type of add or remove operation? ");
+			String operation = sc.next();
+			System.out.println( );
+			if(operation == "add") {
+				System.out.println();
+				System.out.println("Enter the number of products to be added in stock: ");
+				int quantity = sc.nextInt();
+				product.addProducts(quantity);
+			} else if(operation == "remove") {
+				System.out.println();
+				System.out.println("Enter the number of products to be remove in stock: ");
+				int quantity = sc.nextInt();
+				product.removeProducts(quantity);
+			}else {
+				System.out.println("digite add ou remover");
+			}
+				
+			
+			System.out.println("Ainda atualizar a quntidade no estoque");
+			update = sc.next();
+			
+		}while(update == "nao");
+		
+		System.out.println();
+		System.out.println("Update data: "+ product);
+		
+	}
+
+}

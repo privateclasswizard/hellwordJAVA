@@ -1,0 +1,37 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		  Locale.setDefault(Locale.US);
+		  Scanner sc = new Scanner(System.in);
+		  
+		  System.out.println("Quantos numeros voce vai digitar: ");
+		  int n =sc.nextInt();
+		  
+		  
+		  String[] nome = new String[n];
+		  int[] idade = new int[n];
+		  double[] altura = new double[n];
+		  
+		  
+		  for(int i = 0 ; i<n ; i++) {
+			  System.out.print("Dados da "+(i+1)+"a pessoa");
+			  nome[n] = sc.nextLine();
+			  idade[n] = sc.nextInt();
+			  altura[n] = sc.nextDouble();
+			  System.out.printf("%s tem altura %2.f e tem %d",nome[n], altura[n], idade[n]);
+			   
+		  }
+		  
+		  
+
+		}
+		  
+		  sc.close();
+	}
+
+}

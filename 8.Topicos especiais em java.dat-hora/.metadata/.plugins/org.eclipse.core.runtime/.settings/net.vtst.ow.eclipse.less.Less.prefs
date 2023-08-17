@@ -1,0 +1,50 @@
+nd not the number 
+            of parameters).
+            </summary>
+        </member>
+        <member name="F:Microsoft.Scripting.Actions.Calls.NarrowingLevel.None">
+            <summary>
+            Conversions at this level do not do any narrowing. Typically, this will include
+            implicit numeric conversions, Type.IsAssignableFrom, StringBuilder to string, etc.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Scripting.Actions.Calls.NarrowingLevel.One">
+            <summary>
+            Language defined prefered narrowing conversion.  First level that introduces narrowing
+            conversions.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Scripting.Actions.Calls.NarrowingLevel.Two">
+            <summary>
+            Language defined preferred narrowing conversion.  Second level that introduces narrowing
+            conversions and should have more conversions than One.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Scripting.Actions.Calls.NarrowingLevel.Three">
+            <summary>
+            Language defined preferred narrowing conversion.  Third level that introduces narrowing
+            conversions and should have more conversions that Two.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Scripting.Actions.Calls.NarrowingLevel.All">
+            <summary>
+            A somewhat meaningful conversion is possible, but it will quite likely be lossy.
+            For eg. BigInteger to an Int32, Boolean to Int32, one-char string to a char,
+            larger number type to a smaller numeric type (where there is no overflow), etc
+            </summary>
+        </member>
+        <member name="T:Microsoft.Scripting.Actions.Calls.OutArgBuilder">
+            <summary>
+            Builds the argument for an out argument when not passed a StrongBox.  The out parameter
+            is returned as an additional return value.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Scripting.Actions.Calls.OverloadInfo">
+            <summary>
+            Defines a method overload abstraction for the purpose of overload resolution. 
+            It provides the overload resolver the metadata it needs to perform the resolution.
+            </summary>
+            <remarks>
+            WARNING: This is a temporary API that will undergo breaking changes in future versions.
+            </remarks>
+        </member>

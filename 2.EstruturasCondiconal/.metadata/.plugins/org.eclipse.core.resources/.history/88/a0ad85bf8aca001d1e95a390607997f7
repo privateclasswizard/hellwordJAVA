@@ -1,0 +1,18 @@
+package aula34;
+
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		int hora;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Quantas Horas? ");
+		hora = sc.nextInt();
+		
+		if(hora)
+
+	}
+
+}

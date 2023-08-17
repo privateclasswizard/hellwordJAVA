@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;src&apos; to &apos;4.Estruturasrepetitivas&apos;" description="Rename resource &apos;src&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/src" name="4.Estruturasrepetitivas" stamp="1680030286385" updateReferences="true"/>
+</session>

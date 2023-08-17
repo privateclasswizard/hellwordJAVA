@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Aul25main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		String x;
+		x = sc.next();
+		System.out.println("Voce digitou o vlaor de: " + x);
+		sc.close();
+	}
+
+}

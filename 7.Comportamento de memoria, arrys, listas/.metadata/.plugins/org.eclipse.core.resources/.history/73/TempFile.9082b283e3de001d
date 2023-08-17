@@ -1,0 +1,34 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		
+		System.out.println("how many rooms will be retend? ");
+		int roomRented = sc.nextInt();
+		
+		String[] names = new String[roomRented];
+		String[] emails = new String[roomRented];
+		int[] rooms= new int[roomRented];
+		
+		
+		for(int i; i<roomRented ;i++) {
+			System.out.printf("Dados da %d a pessoa:\n", i+1);
+			System.out.print("Nome :");
+			String name = sc.nextLine();
+			System.out.print("email :");
+			String email = sc.next();
+			System.out.print("Quarto :");
+			int room = sc.nextInt();
+		}
+		
+		sc.close();
+	}
+
+}

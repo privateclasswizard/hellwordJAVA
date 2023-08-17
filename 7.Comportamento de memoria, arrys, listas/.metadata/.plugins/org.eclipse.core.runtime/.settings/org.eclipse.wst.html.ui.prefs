@@ -1,0 +1,17 @@
+commentBorder=\#C7DD0C | null | null | false | null | null
+commentText=\#C7DD0C | null | null | false | null | null
+declBoder=\#FFFFFF | null | null | null | null | null
+doctypeExternalId=\#FFFFFF | null | null | null | null | null
+doctypeExternalPubref=\#FFFFFF | null | null | null | null | null
+doctypeExtrenalSysref=\#FFFFFF | null | null | null | null | null
+doctypeName=\#FFFFFF | null | null | null | null | null
+eclipse.preferences.version=1
+entityReference=\#8DCBE2 | null | null | null | null | null
+overriddenByCSS=,commentBorder,commentText,declBoder,doctypeExternalId,doctypeExternalPubref,doctypeExtrenalSysref,doctypeName,entityReference,tagAttributeEquals,tagAttributeName,tagAttributeValue,tagBorder,tagName,xmlContent,
+startAndLen/\u0001\u0000/char[]\u00FF\u00FF\u00C6\u001C\u0000blogEvent/3//Logger/1\u00E0\u00A0\u0080/jdk.jfr.internal/(LjdkjfrinternalLogLevel;[LjavalangString;Z)V//=\u0000/void\u00FF\u00FF\u00A5,\u0000<isDynamic/0//Symbol/\u00D0\u00A1\u00E4\u0080\u0080/com.sun.tools.javac.code///\u0001\u0000/boolean\u00FF\u00FF\u00BC\u009B\u0000Upeek/1//PolicyParser/\!\u00E4\u00A0\u0080/sun.security.provider/(LjavalangString;)Z/expect/\u0002\u0000/boolean\u00FF\u00FF\u00EB\u00EF\u0000gput/3//HeapLongBufferR/ \u00E0\u00A0\u0080/java.nio/([JII)Ljava\nioLongBuffer;/src,offset,length/\u0001\u0000/java.nio.LongBuffer\u00FF\u00FF\u00FA\u00F7\u0000\u0095lambda$toModuleInfo$1/2//ModuleInfoWriter/1\u00E0\u00A0\u0080/jdk.internal.module/(LjavalangInteger;LjavalangInteger;)LjavalangInteger;/x,y/\u00E1\u0080\u008A\u0000/java.lang.Integer\u00FF\u00FF\u00F0\u00AC\u0000Nprint/0//XMLEntityScanner/\!\u0000/com.sun.org.apache.xerces.internal.impl///\u0010\u0000/void\u00FF\u00FF\u00C5l\u0000\u0084ReInit/4//JavaCharStream/\!\u00E0\u00A0\u0080/com.sun.tools.example.debug.expr/(LjavaioReader;III)V/dstream,startline,startcolumn,buffersize/\u0001\u0000/void\u00FF\u00FF\u00A7;\u0000Gequals/1//Rdn/\u0008\u00E2\u00A0\u0080/com.sun.jndi.ldap/(LjavalangObject;)Z/obj/\u0001\u0000/boolean\u00FF\u00FF\u00CE\u00F3\u0000ogetNotificationInfo/0//CounterMonitor/\!\u00E4\u0080\u0080/javax.management.monitor///\u0001\u0000/javax.management.MBeanNotificationInfo[]\u00FF\u00FF\u00CF\u00CC\u0000LisInternal/0//HotSpotResolvedJavaFieldImpl/ \u0000/jdk.vm.ci.hotspot///\u0001\u0000/boolean\u00FF\u00FF\u00ADR\u0000^getIANAName/0//EncodingInfo/\!\u0010/
+tagAttributeEquals=\#D8D8D8 | null | null | null | null | null
+tagAttributeName=\#BED6FF | null | null | null | null | null
+tagAttributeValue=\#FFC600 | null | null | null | null | null
+tagBorder=\#79ABFF | null | null | null | null | null
+tagName=\#BED6FF | null | null | null | null | null
+xmlContent=\#D8D8D8 | null | null | null | null | null

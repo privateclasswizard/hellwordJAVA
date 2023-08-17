@@ -1,0 +1,23 @@
+arguments are sorted before
+            their dependencies.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Scripting.Actions.Calls.TypeInferer.IsDependentConstraint(System.Collections.Generic.Dictionary{System.Type,System.Collections.Generic.List{System.Type}},System.Type,System.Type)">
+            <summary>
+            Checks to see if the x type parameter is dependent upon the y type parameter.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Scripting.Actions.Calls.TypeInferer.GetDependencyMapping(Microsoft.Scripting.Actions.Calls.OverloadInfo)">
+            <summary>
+            Builds a mapping based upon generic parameter constraints between related generic
+            parameters.  This is then used to sort the generic parameters so that we can process
+            the least dependent parameters first.  For example given the method:
+            
+            void Foo{T0, T1}(T0 x, T1 y) where T0 : T1 
+            
+            We need to first infer the type information for T1 before we infer the type information
+            for T0 so that we can ensure the constraints are correct.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Scripting.Actions.Calls.TypeInferer.GetArgumentToInputMapping(Microsoft.Scripting.Actions.Calls.MethodCandidate,System.Collections.Generic.IList{System.Dynamic.DynamicMetaObject})">
+            <sum

@@ -1,0 +1,26 @@
+  Builds the parameter for a params dictionary argument - this collects all the extra name/value
+            pairs provided to the function into a SymbolDictionary which is passed to the function.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Scripting.Actions.Calls.ReferenceArgBuilder">
+            <summary>
+            An argument that the user wants to explicitly pass by-reference (with copy-in copy-out semantics).
+            The user passes a StrongBox[T] object whose value will get updated when the call returns.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Scripting.Actions.Calls.RestrictedArguments.HasUntypedRestrictions">
+            <summary>
+            True if there are restrictions beyond just simple type restrictions
+            </summary>
+        </member>
+        <member name="M:Microsoft.Scripting.Actions.Calls.ReturnBuilder.#ctor(System.Type)">
+            <summary>
+            Creates a ReturnBuilder
+            </summary>
+            <param name="returnType">the type the ReturnBuilder will leave on the stack</param>
+        </member>
+        <member name="T:Microsoft.Scripting.Actions.Calls.ReturnReferenceArgBuilder">
+            <summary>
+            Builds a parameter for a reference argument when a StrongBox has not been provided.  The
+            updated return value is returned as one of the resulting return values.
+            </su

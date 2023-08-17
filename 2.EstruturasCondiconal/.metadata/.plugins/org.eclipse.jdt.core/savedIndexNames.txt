@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\documents\PROGRAMAÇÃO!\CursodeJava\NelioAlves\JAVA\2.EstruturasCondiconal\.metadata\.plugins\org.eclipse.jdt.core
+1863310335.index
+2955972998.index
+1865797976.index

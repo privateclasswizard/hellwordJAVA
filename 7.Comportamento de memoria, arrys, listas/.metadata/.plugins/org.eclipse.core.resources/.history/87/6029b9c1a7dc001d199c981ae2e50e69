@@ -1,0 +1,38 @@
+package entities;
+
+public class Product {
+	private String name;
+	private double prince;
+	
+	
+	public Product(String name, double price) {
+			this.name= name;
+			this.prince = price;
+			
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public double getPrince() {
+		return prince;
+	}
+
+
+	public void setPrince(double price) {
+		this.prince = price;
+	}
+	
+	
+	
+	
+	
+}

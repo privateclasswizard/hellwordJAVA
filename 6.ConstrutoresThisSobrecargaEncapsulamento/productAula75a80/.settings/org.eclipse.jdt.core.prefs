@@ -1,0 +1,21 @@
+F(Py_None);
+  __Pyx_GOTREF(__pyx_v_self->top_level_thread_tracer_no_back_frames);
+  __Pyx_DECREF(__pyx_v_self->top_level_thread_tracer_no_back_frames);
+  __pyx_v_self->top_level_thread_tracer_no_back_frames = Py_None;
+
+  /* function exit code */
+  __pyx_r = 0;
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "_pydevd_bundle/pydevd_cython.pxd":20
+ *     cdef public str trace_suspend_type
+ *     cdef public object top_level_thread_tracer_no_back_frames
+ *     cdef public object top_level_thread_tracer_unhandled             # <<<<<<<<<<<<<<
+ *     cdef public object thread_tracer
+ *     cdef public object step_in_initial_location
+ */
+
+/* Python wrapper */
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_

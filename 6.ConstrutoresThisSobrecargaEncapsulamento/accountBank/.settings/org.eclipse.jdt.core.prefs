@@ -1,0 +1,12 @@
+ram>
+ <returns>The list of transformed elements.</returns>
+</member>
+<member name="M:Microsoft.FSharp.Collections.ListModule.MapIndexed``2(Microsoft.FSharp.Core.FSharpFunc{System.Int32,Microsoft.FSharp.Core.FSharpFunc{``0,``1}},Microsoft.FSharp.Collections.FSharpList{``0})">
+ <summary>Builds a new collection whose elements are the results of applying the given function
+ to each of the elements of the collection. The integer index passed to the
+ function indicates the index (from 0) of element being transformed.</summary>
+ <param name="mapping">The function to transform elements and their indices.</param>
+ <param name="list">The input list.</param>
+ <returns>The list of transformed elements.</returns>
+</member>
+<member name="M:Microsoft.FSharp.Collections.ListM

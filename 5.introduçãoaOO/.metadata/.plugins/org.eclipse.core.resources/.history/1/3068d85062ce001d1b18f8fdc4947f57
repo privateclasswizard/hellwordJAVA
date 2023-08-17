@@ -1,0 +1,10 @@
+package alua64package;
+
+public class aula64main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

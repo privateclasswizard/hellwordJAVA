@@ -1,0 +1,14 @@
+
+public class primeiroprogramaMain {
+
+	public static void main(String[] args) {
+		//System.out.print("Olá mundo");
+		//System.out.println("vc é feio");
+		
+		int y = 32;
+		System.out.println(y);
+		System.out.print("Use os produtos evone");
+		
+	}
+
+}

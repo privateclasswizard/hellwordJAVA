@@ -1,0 +1,18 @@
+Microsoft.Scripting.Actions.Calls.BindingTarget.MakeExpression">
+            <summary>
+            Gets an Expression which calls the binding target if the method binding succeeded.
+            
+            Throws InvalidOperationException if the binding failed.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Scripting.Actions.Calls.BindingTarget.Method">
+            <summary>
+            Returns the method if the binding succeeded, or null if no method was applicable.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Scripting.Actions.Calls.BindingTarget.Overload">
+            <summary>
+            Returns the selected overload if the binding succeeded, or null if no one was applicable.
+            </summary>
+        </member>
+ 

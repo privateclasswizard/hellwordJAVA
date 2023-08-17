@@ -1,0 +1,15 @@
+hod.
+            A default mapping will be constructed for the remaining parameters (cleared bits).
+            </returns>
+        </member>
+        <member name="M:Microsoft.Scripting.Actions.Calls.OverloadResolver.CreateActualArguments(System.Collections.Generic.IList{System.Dynamic.DynamicMetaObject},System.Collections.Generic.IList{System.String},System.Int32,System.Int32)">
+            <summary>
+            Return null if arguments cannot be constructed and overload resolution should produce an error.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Scripting.Actions.Calls.OverloadResolver.IsOverloadedOnParameter(System.Int32,System.Int32,System.Collections.Generic.IList{Microsoft.Scripting.Actions.Calls.ApplicableCandidate})">
+            <summary>
+            Determines whether given overloads are overloaded on index-th parameter (the types of the index-th parameters are the same).
+            </summary>
+        </member>
+        <member name="M:Microsoft.Scripting.Actions.Calls.OverloadResolver.SelectBestConversionFor(System.Dynamic.DynamicMetaObject,Microsoft.Scripting.Actions.Calls.ParameterWrap
